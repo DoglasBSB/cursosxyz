@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Curso Bootstrap3</title>
+	<!--define a viewport-->
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<!--Adicionar CSS Bootstrap-->
+	<link  href="css/bootstrap.min.css" rel="stylesheet" media="all">
+	<!-- css personalizado-->
+	<link  href="css/estilo.css" rel="stylesheet" media="all">
+</head>
+<body>
+<!--#########################################################-->
+	
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 text-center">
+
+		<h1>Tooltip</h1>
+			
+		<button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="left" title="Tooltip Left">Tooltip 1 - Left</button>
+
+		<button type="button" class="btn btn-primary ttp" data-toggle="tooltip" data-placement="top" title="Tooltip Top">Tooltip 2 - Top</button>
+
+		<button type="button" class="btn btn-danger ttp" data-toggle="tooltip" data-placement="bottom" title="Tooltip Botton">Tooltip 3 - Bottom</button>
+
+		<button type="button" class="btn btn-success ttp" data-toggle="tooltip" data-placement="right" title="Tooltip Right">Tooltip 4 - Right</button>
+
+
+		</div>
+	</div>
+</div>
+<br><br><br>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 text-center">
+
+		<h1>Popovers</h1>
+			
+		<button type="button" class="btn btn-default ppv " data-toggle="popover" data-placement="left" data-content="Conteúdo do Popover" data-container="body">Tooltip 1 - Left</button>
+
+		<button type="button" class="btn btn-primary ppv " data-toggle="popover" data-placement="top" data-content="Conteúdo do Popover" data-container="body">Tooltip 2 - Top</button>
+
+		<button type="button" class="btn btn-danger ppv " data-toggle="popover" data-placement="bottom" data-content="Conteúdo do Popover" data-container="body">Tooltip 3 - Bottom</button>
+
+		<button type="button" class="btn btn-success ppv " data-toggle="popover" data-placement="right" data-content="Conteúdo do Popover" data-container="body">  Tooltip 4 - Right</button>
+
+
+		</div>
+	</div>
+</div>
+
+
+<!--##########################################################-->
+	<br>
+	<script src="js/jquery-3.2.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

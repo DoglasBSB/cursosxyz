@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"s",
+				"span\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "HTML",
+		"selected_items":
+		[
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"Preferences: Settings – Syntax Specific"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"Add Repository",
+			"Install Package",
+			" import urllib2,os; pf='Package Control.sublime-package'; ",
+			" import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')",
+			"show_panel",
+			"[text] { \"keys\": [\"ctrl+'\"], \"command\": \"show_panel\", \"args\": {\"panel\": \"console\", \"toggle\": true} }, [/text] troque por ou alguma outra combinação do teclado que você gostar: [text] { \"keys\": [\"ctrl+'\"], \"command\": \"show_panel\", \"args\": {\"panel\": \"console\", \"toggle\": true} }, [/text]",
+			"show_panel",
+			"[text] { \"keys\": [\"ctrl+'\"], \"command\": \"show_panel\", \"args\": {\"panel\": \"console\", \"toggle\": true} }, [/text] troque por ou alguma outra combinação do teclado que você gostar: [text] { \"keys\": [\"ctrl+'\"], \"command\": \"show_panel\", \"args\": {\"panel\": \"console\", \"toggle\": true} }, [/text] "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/Cursos/03 - PHP - CursoemVideo/01 - iniciando php.php",
+		"/C/xampp/htdocs/Cursos/01 - Bootstrap 3 - Devmedia/aula18 - Input groups.html",
+		"/C/xampp/htdocs/Cursos/01 - Bootstrap 3 - Devmedia/aula16 - glyphicons.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula17 - DropDown e Button Group.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula18 - a.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula16 - glyphicons.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula07  - textos e fontes.html",
+		"/C/Users/Usuário/Desktop/bootstrap-3.3.7/less/variables.less",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula15 - usando less.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula13 - helper classes.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/css/estilo.css",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula11 - botoes.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula10 - formularios.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/js/bootstrap.js",
+		"/C/Users/Usuário/Desktop/Bootstrap3/css/bootstrap.css",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula09.html",
+		"/C/Users/Usuário/Desktop/Bootstrap3/js/main.js",
+		"/C/Users/Usuário/Desktop/Bootstrap3/aula01_cdn.html",
+		"/C/xampp/htdocs/TCC/TCC2/control/controllerConsulta.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/consultarRelatorioProntuarios.php",
+		"/C/xampp/htdocs/TCC/TCC2/view/consultarMedico.php",
+		"/C/xampp/htdocs/SGTA/view/consultarRelatorioAlunos.php",
+		"/C/xampp/htdocs/TCC/TCC1/modulo.php",
+		"/C/xampp/htdocs/SGTA/view/modulo.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/relatorios/relatorioProntuarios.php",
+		"/C/xampp/htdocs/SGTA/view/relatorios/relatorioAlunos.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/ControlGeral.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/ControlRelatorio.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/controllerRelatorio.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/controllerProntuario.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/ControlProntuario.class.php",
+		"/C/xampp/htdocs/SGTA/control/controlGeral.class.php",
+		"/C/xampp/htdocs/SGTA/control/controlRelatorio.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/consultarUsuario.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/consultarProntuario.php",
+		"/C/Users/Usuário/Downloads/TCC/TCC1/view/consultarRelatorioProntuarios.php",
+		"/C/Users/Usuário/Downloads/TCC/TCC1/view/consultarMedico.php",
+		"/C/Users/Usuário/Downloads/TCC/TCC1/view/consultarRelatorioConsultas.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/consultarPaciente.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/inserirPaciente.php",
+		"/C/Users/Usuário/Desktop/agghrhdgdgd/Nova pasta/consultarRelatorioProntuarios.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/consultarRelatorioAlunos.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/ControlMedico.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/model/ModelPaciente.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/ControlConsulta.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/model/ModelProntuario.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/controllerPaciente.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/Nova pasta/controlRelatorio.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/model/ModelRelatorio.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/model/Nova pasta/ModelRelatorio.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/model/modelRelatorio.class.php",
+		"/C/xampp/htdocs/SGTA/model/modelRelatorio.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/relatorios/fpdf/fpdf.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/controlRelatorio.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/controllerConsulta.php",
+		"/C/xampp/htdocs/TCC/TCC1/control/controllerMedico.php",
+		"/C/xampp/htdocs/TCC/TCC1/model/ModelConexao.class.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/principal.php",
+		"/C/xampp/htdocs/SGTA/view/relatorios/relatorioGrupos.php",
+		"/C/xampp/htdocs/TCC/TCC1/view/inserirProntuario.php",
+		"/C/Users/Usuário/Desktop/tcc/TCC/index.php",
+		"/C/xampp/htdocs/TCC/TCC1/index.php",
+		"/C/xampp/htdocs/tcc/TCC/index.php",
+		"/C/xampp/htdocs/tcc/TCC/view/principal.php",
+		"/C/xampp/htdocs/tcc/TCC/control/ControlGeral.class.php",
+		"/C/xampp/htdocs/SGTA/index.php",
+		"/C/xampp/htdocs/tcc/TCC/modulo.php",
+		"/C/xampp/htdocs/tcc/TCC/autoload.php",
+		"/C/xampp/htdocs/tcc/TCC/model/classes/DAO/usuarioDAO.php",
+		"/C/xampp/htdocs/teste2/view/principal.php",
+		"/C/xampp/htdocs/tcc/TCC/model/classes/DAO/senhaDAO.php",
+		"/C/xampp/htdocs/tcc/TCC/model/classes/DAO/Conexao.php",
+		"/C/xampp/htdocs/Projetos/joomla/templates/shaper_helix3/css/template.css",
+		"/C/xampp/htdocs/Projetos/joomla/components/com_k2/templates/default/item.php",
+		"/C/xampp/htdocs/Projetos/joomla/components/com_k2/css/k2.css",
+		"/C/xampp/htdocs/teste2/bootstrap/css/style.css",
+		"/C/Users/Usuário/Desktop/trechos de codigos php.php",
+		"/C/xampp/htdocs/SGTA/view/inserirAluno.php",
+		"/C/xampp/htdocs/teste2/view/inserirPaciente.php",
+		"/C/xampp/htdocs/SGTA/control/controlAluno.class.php",
+		"/C/xampp/htdocs/teste2/view/consultarMedico.php",
+		"/C/xampp/htdocs/SGTA/view/inserirDocente.php",
+		"/C/xampp/htdocs/teste2/control/ControlGeral.class.php",
+		"/C/Users/Usuário/Downloads/TCC/Nova pasta/SERGIO/SERGIO/control/ControlGeral.class.php",
+		"/C/Users/Usuário/Downloads/TCC/Nova pasta/SERGIO/SERGIO/modulo.php",
+		"/C/xampp/htdocs/teste2/modulo.php",
+		"/C/xampp/htdocs/teste2/control/ControlMedico.php",
+		"/C/xampp/htdocs/teste2/control/ControlMedico.class.php",
+		"/C/xampp/htdocs/teste2/view/inserirMedico.php",
+		"/C/Users/Usuário/Downloads/TCC/Nova pasta/SERGIO/SERGIO/view/inserirMedico.php",
+		"/C/xampp/htdocs/teste2/bootstrap/css/bootstrap.min.css",
+		"/C/Users/Usuário/AppData/Local/Temp/Rar$DIa0.160/index.php",
+		"/C/xampp/htdocs/SGTA/bootstrap/css/style.css",
+		"/C/xampp/htdocs/scph/validacao.php",
+		"/C/xampp/htdocs/scph/conectar.php",
+		"/C/xampp/htdocs/scph/index.php",
+		"/C/xampp/htdocs/scph/view/principal.php",
+		"/C/xampp/htdocs/scph/model/modelConexao.class.php",
+		"/C/xampp/htdocs/scph/model/modelPessoa.php",
+		"/C/xampp/htdocs/scph/view/modulo.php",
+		"/C/xampp/htdocs/STACIONE/conectar.php",
+		"/C/xampp/htdocs/STACIONE/view/principal.php",
+		"/C/xampp/htdocs/STACIONE/control/controlEstaciona.class.php",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-2/Conexao.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/apache/conf/original/extra/httpd-vhosts.conf",
+		"/F/Faculdade/CD CÓDIGO FONTE - SGTA/CD CÓDIGO FONTE - SGTA/Sistema/SGTA/SGTA/model/classes/DAO/senhaDAO.php",
+		"/F/Faculdade/CD CÓDIGO FONTE - SGTA/CD CÓDIGO FONTE - SGTA/Sistema/SGTA/SGTA/view/consultarRelatorioAlunos.php",
+		"/F/Faculdade/CD CÓDIGO FONTE - SGTA/CD CÓDIGO FONTE - SGTA/Sistema/SGTA/SGTA/model/classes/DAO/Conexao.php",
+		"/F/Faculdade/CD CÓDIGO FONTE - SGTA/CD CÓDIGO FONTE - SGTA/Sistema/SGTA/SGTA/cadastro.php",
+		"/F/Faculdade/CD CÓDIGO FONTE - SGTA/CD CÓDIGO FONTE - SGTA/Sistema/SGTA/SGTA/conectar.php",
+		"/F/Faculdade/CD CÓDIGO FONTE - SGTA/CD CÓDIGO FONTE - SGTA/Sistema/SGTA/SGTA/model/classes/Entidade/usuario.php",
+		"/F/Faculdade/CD CÓDIGO FONTE - SGTA/CD CÓDIGO FONTE - SGTA/Sistema/SGTA/SGTA/model/classes/Entidade/senha.php",
+		"/C/xampp/htdocs/Projetos/joomla/components/com_k2/views/item/tmpl/item.php",
+		"/C/xampp/htdocs/Projetos/joomla/components/com_k2/views/item/view.html.php",
+		"/C/xampp/htdocs/Projetos/joomla/templates/shaper_helix3/css/bootstrap.min.css",
+		"/C/xampp/htdocs/Projetos/joomla/templates/shaper_helix3/css/presets/preset3.css",
+		"/C/xampp/htdocs/Projetos/joomla/templates/shaper_helix3/css/presets/preset4.css",
+		"/C/xampp/htdocs/Projetos/joomla/templates/shaper_helix3/css/presets/preset1.css",
+		"/C/xampp/htdocs/Projetos/joomla/templates/shaper_helix3/css/presets/preset2.css",
+		"/C/xampp/htdocs/Projetos/joomla/index.php",
+		"/C/xampp/htdocs/Projetos/joomla/administrator/templates/isis/css/template.css",
+		"/C/xampp/htdocs/Projetos/joomla/administrator/templates/isis/css/template-rtl.css",
+		"/C/xampp/htdocs/Projetos/joomla/administrator/components/com_sppagebuilder/assets/css/bootstrap.css",
+		"/C/xampp/htdocs/SGTA/bootstrap/css/bootstrap.min.css",
+		"/C/xampp/htdocs/joomla3/layouts/joomla/modal/footer.php",
+		"/C/xampp/htdocs/joomla3/tmp/dd_studio_33/dd_studio_33/html/mod_finder/default.php",
+		"/C/xampp/htdocs/joomla3/tmp/ago_theme/layouts/template.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\Projetos\\joomla\\components\\com_k2\\css",
+			"C:\\xampp\\htdocs\\Projetos\\joomla\\administrator\\templates\\isis\\css\\template.css",
+			"C:\\xampp\\htdocs\\Projetos\\joomla\\administrator\\templates\\isis\\css\\",
+			"C:\\xampp\\htdocs\\Projetos\\joomla\\administrator\\templates\\isis\\css\\template.css",
+			"C:\\xampp\\htdocs\\Projetos\\joomla\\administrator\\templates\\isis\\css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".btn-primary",
+			"btn-primary",
+			".btn-primary",
+			"itemBackToTop",
+			"itemLinks",
+			"itemCa",
+			"itemCate",
+			"itemCategory",
+			"itemCat",
+			"itemCategory",
+			"itemAuthorBlock",
+			"itemdat",
+			"itemHits",
+			"Date",
+			"DateCreated",
+			"itemDateCreated",
+			"itemDate",
+			"itemdatecr",
+			"itemdate",
+			"itemToolbar",
+			"itemtoo",
+			"itemtol",
+			".row",
+			"row",
+			".row",
+			"#fffff0",
+			"início",
+			"ínicio",
+			"813",
+			"#127703",
+			"#0",
+			"#0088",
+			"#0088cc",
+			".navbar-inverse",
+			".headers",
+			".header",
+			".navbar navbar-inverse navbar-fixed-top",
+			"navbar navbar-inverse navbar-fixed-top",
+			".header",
+			"#1A3867",
+			"#10223E",
+			".navbar",
+			".navbar\"c",
+			"div.container",
+			"222",
+			"#127703",
+			"#10223E",
+			"#127703",
+			"#EFDD09",
+			"#1a3867",
+			"repeat",
+			"#127703",
+			"#1A3867",
+			"#10223e",
+			"#10",
+			"#020a01",
+			"#127703",
+			"#127703\n",
+			"#10223e\n",
+			"}\n",
+			"#10223e",
+			"div",
+			"div.container",
+			"div.container-fluid",
+			"logo",
+			"images/logo",
+			"imag",
+			"imagens/logo",
+			"dd-logo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#ffffff",
+			"#ebf909",
+			"#10223e",
+			"#efdd09",
+			"#127703",
+			"#10223E",
+			"#1a3867",
+			"#EFDD09",
+			"#127703"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "aula01 - Introdução.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Alert"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 475.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

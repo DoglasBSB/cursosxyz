@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Curso Bootstrap</title>
+	<!--define a viewport-->
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<!--Adicionar CSS Bootstrap-->
+	<link  href="css/bootstrap.min.css" rel="stylesheet" media="all">
+	<!-- css personalizado-->
+	<link  href="css/estilo.css" rel="stylesheet" media="all">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+		<div class="col-xs-12">
+
+		<h3><p class="text-danger" >Input Group</p><h3>
+		<form>
+		<hr>
+		<div class="input-group input-group-lg">
+			<span class="input-group-addon">Seu nome:</span>
+			<input type="text" class="form-control">
+		</div>
+
+		<hr>
+
+		<div class="input-group input-group-sm">
+			<input type="texte" class="form-control">
+			<span class="input-group-addon" riquired>Obrigatório</span>
+		</div>
+
+		<hr>
+
+		<div class="input-group input-group-xs">
+
+			<span class="input-group-addon">R$</span>
+			<input type="texte" class="form-control">
+			<!--DESTA FORMA FICA CONCATENADO COM REAIS-->
+			<span class="input-group-addon">,00</span>
+		</div>
+
+		</form>
+	</div>
+
+<div class="col-xs-12">
+
+		
+	<form>
+		<hr>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<input type="checkbox">
+			</span>
+			<input type="text" class="form-control">
+		</div>
+
+        <!--campo busca -->
+		<hr>
+		<div class="input-group input-group-lg">
+			
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-search"></span>
+			</span>
+
+			<input type="text" class="form-control">
+
+			<span class="input-group-btn">
+				<button type="button" class="btn btn-primary">Buscar</button> 
+			</span>
+		</div>
+ 	</form>
+</div>
+
+	
+<!--MENU  DROPDOWN-->
+<div class="col-xs-12">
+	<form>
+		<hr>
+
+		<div class="input-group">
+			<input type="text" class="form-control">
+			<div class="input-group-btn">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Selecione um estado 
+					<span class="caret"></span> </button>
+
+					<ul class="dropdown-menu">
+						<li><a href="#">DF</a></li>
+						<li><a href="#">PB</a></li>
+						<li><a href="#">NR</a></li>
+						<li><a href="#">SP</a></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+	</div>
+</div>
+    <br>
+	<script src="js/jquery-3.2.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

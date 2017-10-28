@@ -1,0 +1,17 @@
+==================================
+SEJA BEM-VINDO AO CURSOEMVIDEO.COM
+Cursos GRATIS feitos com QUALIDADE
+==================================
+Esse aplicativo faz parte de um pacote do Curso de Algoritmos, criado pelo Prof. Gustavo Guanabara para o site CursoEmVideo.Com. 
+
+A chave para o bom aprendizado e sempre a PRATICA, então pratique muito e não deixe de acompanhar todas as aulas disponíveis no site abaixo:
+------------------------------------------------
+www.cursoemvideo.com/course/curso-de-algoritmos/
+------------------------------------------------
+Todas as aulas são gratuitas, mas possuem o direito autoral reservado  ao autor, Gustavo Guanabara.
+
+O VISUALG é uma ferramenta gratuita criada por brasileiros para o aprendizado de algoritmos em ambiente Windows. Essa versão não necessita de instalação e pode ser copiada para qualquer pasta para funcionar. Arraste qualquer arquivo com extensão ALG para cima do ícone do VISUALG para abrí-lo.
+
+Se já estiver no VISUALG, clique em Arquivo > Abrir ou pressione Ctrl+A. Em seguida, localize o arquivo desejado em sua respectiva pasta.
+
+BONS ESTUDOS!

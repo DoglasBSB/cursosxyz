@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Curso Bootstrap3</title>
+	<!--define a viewport-->
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<!--Adicionar CSS Bootstrap-->
+	<link  href="css/bootstrap.min.css" rel="stylesheet" media="all">
+	<!-- css personalizado-->
+	<link  href="css/estilo.css" rel="stylesheet" media="all">
+</head>
+<body>
+<!--#########################################################-->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="page-header">
+					<h1>Alerts <small>Elementos alerts</small></h1>
+				</div>
+
+					<div class="alert alert-success">Formulário enviado com sucesso!</div>	
+
+					<div class="alert alert-warning">Cuidado ao preencher o Formulário!</div>
+
+					<div class="alert alert-info">Preencha todos os campos do Formulário!</div>
+
+					<div class="alert alert-danger">Você não preencheu os campos do corretamente!</div>
+
+
+					<!--ALERT COM BOTÃO DE FECHAMENTO-->
+					<div class="alert alert-danger alert-dismissible">
+
+						<button type="button" class="close" data-dismiss="alert">
+							<span aria-hidden="true">&times;</span>
+						</button>
+							
+						<strong>Você </strong>não preencheu os campos do corretamente!
+					</div>
+
+					<!--ALERT COM BOTÃO DE FECHAMENTO e LINK ALERT-->
+					<div class="alert alert-danger alert-dismissible">
+
+						<button type="button" class="close" data-dismiss="alert">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<!--adicionar um link dentro de um objeto tipo alert  -->	
+						<strong>Você </strong>não preencheu os campos <a href="#" class="alert-link"> corretamente!</a>
+					</div>
+
+
+			</div>			
+		</div>
+	</div>
+
+<!--PROGRESS BAR-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			
+			<div class="page-header">
+					<h1>Progress Bar <small>Elementos progress bar</small></h1>
+			</div>
+
+
+			<div class="progress">
+				<div class="progress-bar" role="progressbar" aria-valuemin = "0" aria-valuemax="100"style="width: 60%">
+				<span>60% completo...</span>
+				<!-- o carregamento e por javascript-->
+				</div>
+			</div>
+
+
+			<div class="progress">
+				<div class="progress-bar  progress-bar-success" role="progressbar" aria-valuemin = "0" aria-valuemax="100"style="width: 60%">
+				<span>60% completo...</span>
+				<!-- o carregamento e por javascript-->
+				</div>
+			</div>
+
+			<div class="progress">
+				<div class="progress-bar  progress-bar-warning progress-bar-striped " role="progressbar" aria-valuemin = "0" aria-valuemax="100"style="width: 60%">
+				<span>60% completo...</span>
+				<!-- oprogress-bar-striped deixa tracejada-->
+				</div>
+			</div>
+
+			<div class="progress">
+				<div class="progress-bar  progress-bar-primary progress-bar-striped active " role="progressbar" aria-valuemin = "0" aria-valuemax="100"style="width: 60%">
+				<span>60% completo...</span>
+				<!-- active deixa a progress bar animada-->
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!--##########################################################-->
+	<br>
+	<script src="js/jquery-3.2.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	
+
+</body>
+</html>

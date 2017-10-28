@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Curso Bootstrap</title>
+	<!--define a viewport-->
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<!--Adicionar CSS Bootstrap-->
+	<link  href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- css personalizado-->
+	<link  href="css/estilo.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+	<div class="container"> 
+		<div class="row">
+			<div class="col-xs-12">
+
+
+
+				<!--Formulários-->
+
+				<form>
+					<div class="form-group">
+						<label for="nome">Nome Completo:</label>
+						<input type="text" class="form-control" id="nome" placeholder="Nome:">
+					</div>
+
+
+					<div class="form-group">
+						<label for="tipo" >Tipo:</label>
+						<select class="form-control">
+							<option>Pessoa Física</option>
+							<option>Pessoa Jurídica</option>
+						</select>
+					</div>
+				</form>
+
+				<hr>
+				<br>
+
+				<!--Formulário horizontal-->
+
+				<form class="form-horizontal" >
+
+					<div class="form-group">
+			<!--ESCREVA-->			
+						<label for="nome" class="col-xs-2 control-label">Nome Completo:</label>
+
+						<div class="col-xs-10"><input type="text" class="form-control" id="nome" placeholder="Nome:"></div>
+
+					</div>
+
+					<div class="form-group">
+						<label for="tipo" class="col-xs-2 control-label">Tipo:</label>
+						<div class="col-xs-10">
+			<!--SELECIONE (SELECT)-->
+							<select class="form-control">
+								<option>Pessoa Física</option>
+								<option>Pessoa Jurídica</option>
+							</select>
+						</div>
+					</div>	
+
+
+					<div class="form-group">
+						<label for="sexo" class="col-xs-2 control-label">Selecione:</label>
+						<div class="col-xs-10">
+			<!--MARQUE (CHECKBOX)-->			
+							<label class="checkbox-inline"></label>
+							<input type="checkbox" id="id1" value="1"> 1
+
+							<label class="checkbox-inline"></label>
+							<input type="checkbox" id="id2" value="2"> 2
+
+							<label class="checkbox-inline"></label>
+							<input type="checkbox" id="id3" value="2"> 3
+						</div>
+					</div>
+
+                    <!--Campo estático-->
+					<div class="form-group">
+						<label class="col-xs-2 control-label">Seu e-mail</label>
+						<div class="col-xs-10">
+							<p class="form-control-static">teste.teste@gmail.com</p>
+						</div>
+					</div>
+
+                   <!--VALIDAÇÃO + FEEDBACK NO CAMPO-->
+					<div class="form-group has-success has-feedback ">
+						<label for="cpf" class="col-xs-2 control-label">CPF:</label>
+
+						<div class="col-xs-10">
+						<input type="text" class="form-control" id="nome" placeholder="Digite seu CPF:">
+						<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+						<span class="help-block">Forma correta de inserir o CPF. Por exemplo: XXX.XXX.XXX-XX </span>
+						</div>
+					</div>
+
+					<div class="form-group has-warning has-feedback">
+						<label for="nome" class="col-xs-2 control-label">Nome Completo:</label>
+
+						<div class="col-xs-10">
+						<input type="text" class="form-control" id="nome" placeholder="Nome:">
+						<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+						</div>
+					</div>
+
+					<div class="form-group has-error has-feedback">
+						<label for="nome" class="col-xs-2 control-label">Nome Completo:</label>
+
+						<div class="col-xs-10">
+						<input type="text" class="form-control" id="nome" placeholder="Nome:">
+						<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+						</div>
+					</div>
+
+                    <!--cLASSE Tamanho de Campos LG E SM-->	
+					
+                    <div class="form-group form-group-lg">
+                    	<label for="nome" class="col-xs-2 control-label">Nome Completo:</label>
+
+                    	<div class="col-xs-10">
+                    		<input type="text" class="form-control" id="nome" placeholder="Nome:"></div>
+                    	</div>
+
+                    	<div class="form-group">
+                    		<label for="nome" class="col-xs-2 control-label">Nome Completo:</label>
+
+                    		<div class="col-xs-10">
+                    			<input type="text" class="form-control input-sm" id="nome" placeholder="Nome:"></div>
+                    		</div>
+
+
+                    		<!--Classe de ajuda (Help-block)-->	
+
+
+                    		<div class="form-group">
+                    			<label for="cpf" class="col-xs-2 control-label">CPF :</label>
+
+                    			<div class="col-xs-10">
+                    				<input type="text" class="form-control input-sm" id="nome" placeholder="Digite o seu CPF:">
+                    				<span class="help-block">Forma correta de inserir o CPF. Por exemplo: XXX.XXX.XXX-XX </span>
+                    			</div>
+                    		</div>
+
+					<!--Botão de Formulário-->
+
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-10">
+							<button type="submit" class="btn btn-defaut ">Enviar Formulário</button>
+						</div>
+					</div>
+				</form>
+
+
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

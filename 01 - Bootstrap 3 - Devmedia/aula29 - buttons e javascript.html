@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Curso Bootstrap3</title>
+	<!--define a viewport-->
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<!--Adicionar CSS Bootstrap-->
+	<link  href="css/bootstrap.min.css" rel="stylesheet" media="all">
+	<!-- css personalizado-->
+	<link  href="css/estilo.css" rel="stylesheet" media="all">
+</head>
+<body>
+<!--#########################################################-->
+
+<!--SINGLE TOGGLE-->	
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 text-center">
+			
+		<div class="page-header">
+			<!--Mudar o estado quando clicar o botão-->
+			<h1>Sinlge Toggle</h1>
+		</div>	
+			<button type="button" class="btn btn-default" data-toggle="button">Sinlge Toggle 4</button>
+			<button type="button" class="btn btn-primary" data-toggle="button">Sinlge Toggle 1</button>
+			<button type="button" class="btn btn-danger" data-toggle="button">Sinlge Toggle 2</button>
+			<button type="button" class="btn btn-warning" data-toggle="button">Sinlge Toggle 3</button>
+			<button type="button" class="btn btn-success" data-toggle="button">Sinlge Toggle 4</button>
+			<button type="button" class="btn btn-info" data-toggle="button">Sinlge Toggle 4</button>
+		</div>
+	</div>
+</div>
+
+<!--CHECKBOX-->
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			
+		<div class="page-header">
+			<!--Marca varias opções-->
+			<h1>Checkbox</h1>
+		</div>	
+		
+			<div class="btn-group" data-toggle="buttons">
+				<label class="btn btn-primary active btnjs">
+					<input type="checkbox" checked> Opção 1 
+				</label><br>
+				<label class="btn btn-info btnjs">
+					<input type="checkbox">
+					 Opção 2 
+				</label><br>
+				<label class="btn btn-danger btnjs">
+					<input type="checkbox"> Opção 3 
+				</label><br>
+				<label class="btn btn-warning btnjs">
+					<input type="checkbox"> Opção 4 
+				</label><br>
+				<label class="btn btn-success btnjs">
+					<input type="checkbox"> Opção 5 
+				</label><br>
+				<label class="btn btn-default btnjs">
+					<input type="checkbox"> Opção 6 
+				</label><br>
+
+				<!--BUTTON QUE TROCA DE ESTADO-->
+				<button type="button" id="troca-estado" data-loading-text="Carregando..." class="btn btn-primary btnjs">Carregar algo</button>
+				<br>
+
+			</div>
+
+
+           <!--data-toggle= "button APACERE A CAIXINHA NO CHECKBOX"-->
+			<div class="btn-group" data-toggle="button">
+				<label class="btn btn-primary active btnjs">
+					<input type="checkbox" checked> Opção 1 
+				</label><br>
+				<label class="btn btn-info btnjs">
+					<input type="checkbox">
+					 Opção 2 
+				</label><br>
+			</div>
+		
+
+		</div>
+	</div>
+</div>
+
+<!--RADIOGROUP-->
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			
+		<div class="page-header">
+			<!--Marca apenas um opção-->
+			<h1>RadioGroup</h1>
+		</div>	
+		
+			<div class="btn-group" data-toggle="buttons">
+				<label class="btn btn-default active btnjs ">
+					<input type="radio" name="rdGroup1" id="rdGroup1" checked> Opção 1 
+				</label>
+				<label class="btn btn-default btnjs ">
+					<input type="radio" name="rdGroup1" id="rdGroup2">
+					 Opção 2 
+				</label>
+				<label class="btn btn-default btnjs ">
+					<input type="radio" name="rdGroup1" id="rdGroup3">
+					 Opção 3 
+				</label>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<!--##########################################################-->
+	<br>
+	<script src="js/jquery-3.2.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
