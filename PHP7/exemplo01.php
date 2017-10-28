@@ -6,4 +6,6 @@ function f($v, $n) {
 	}
 	$a = array(0,1,2,3);
 	print (f($a, 4)); 
+
+	TETE
 ?>
